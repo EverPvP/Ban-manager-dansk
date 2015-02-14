@@ -6,11 +6,11 @@
 # [expires] = How long until the ban/mute ends
 
 messages:
-  disallowedIpPermBan: Din IP er blevet bannet fra serveren, for [reason]
-  disallowedIpTempBan: Din IP er blevet bannet fra serveren, for [reason] \nDet udløber om [expires]
-  disallowedPermBan: Du er blevet bannet fra serveren, for [reason]
-  disallowedTempBan: Du er blevet bannet fra serveren, for [reason] \nDet udløber om [expires]
-  duplicateIP: '&cAdvarsel: [player] har den samme IP, som følgende bannede spillere:\n&6[players]'
+  disallowedIpPermBan: Din IP er blevet udelukket fra serveren, for [reason]
+  disallowedIpTempBan: Din IP er blevet udelukket fra serveren, for [reason] \nDet udløber om [expires]
+  disallowedPermBan: Du er blevet udelukket fra serveren, for [reason]
+  disallowedTempBan: Du er blevet budelukket fra serveren, for [reason] \nDet udløber om [expires]
+  duplicateIP: '&cAdvarsel: [player] har den samme IP, som følgende udelukkede spillere:\n&6[players]'
   mutedBlacklistedCommand: '&cDu kan ikke bruge [command] mens du er muted!'
   muted: Du er blevet permanent muted for [reason] af [actor]
   tempMuted: Du er blevet midlertidigt muted for [reason] af [actor] som udløber om [expires]
@@ -31,40 +31,36 @@ messages:
   timeSeconds: sekunder
   never: aldrig
   none: ingen
-  errorOccurred: '&cAn error occured whilst attempting to perform that command. Please
-    check the console for the error.'
-  playerOffline: '&c[player] is offline'
-  playerNotFound: '&c[player] not found, are you sure they exist?'
-  alreadyBanned: '&c[player] is already banned'
-  kickNoReason: You have been kicked
-  kickReason: You have been kicked for [reason]
-  playerKicked: '[player] has been kicked by [actor] for [reason]'
-  banKick: You have been banned permanently for [reason]
-  playerBanned: '[player] has been permanently banned by [actor] for [reason]'
-  invalidTime: '&cYour time length is invalid'
-  tempBanKick: You have been temporarily banned for [reason]
-  playerTempBanned: '[player] has been temporarily banned for [expires] by [actor]
-    for [reason]'
-  alreadyMuted: '&c[player] is already muted'
-  playerUnbanned: '[player] has been unbanned by [actor]'
-  ipUnbanned: '[ip] has been unbanned by [actor]'
-  notBanned: '&c[player] is not banned'
-  playerTempMuted: '&c[player] has been temporarily muted for [expires] by [actor]
-    for [reason]'
-  playerMuted: '[player] has been permanently muted by [actor] for [reason]'
-  ipTempBanned: '[ip] has been temporarily banned for [expires] by [actor] for [reason]'
-  ipBanned: '[ip] has been permanently banned by [actor] for [reason]'
-  ipBanKick: You have been permanently banned for [reason]
-  ipTempBanKick: You have been temporarily banned for [reason]
-  ipNotBanned: '[ip] is not banned'
-  playerUnmuted: '[player] has been unmuted by [actor]'
-  notMuted: '[player] is not muted'
+  errorOccurred: '&cEn fejl er opstået i forsøget på at bruge denne kommando. Tjek konsolen for fejl.'
+  playerOffline: '&c[player] er offline'
+  playerNotFound: '&c[player] blev ikke fundet'
+  alreadyBanned: '&c[player] er allerede udelukket'
+  kickNoReason: Du er blivet smidt ud af servren
+  kickReason: Du er blevet smidt ud af serveren for [reason]
+  playerKicked: '[player] er blevet smidt ud af [actor] for [reason]'
+  banKick: Du er blevet permanent udelukket for [reason]
+  playerBanned: '[player] er blevet permanent udelukket af [actor] for [reason]'
+  invalidTime: '&cDen valgte tid er ugyldig'
+  tempBanKick: Du er blevet midlertidigt udelukket for [reason]
+  playerTempBanned: '[player] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
+  alreadyMuted: '&c[player] er allerede muted'
+  playerUnbanned: '[player] er blevet unbannet af [actor]'
+  ipUnbanned: '[ip] er blevet unbannet af [actor]'
+  notBanned: '&c[player] er ikke udelukket'
+  playerTempMuted: '&c[player] er blevet midlertidigt muted i [expires] af [actor] for [reason]'
+  playerMuted: '[player] er blevet permanent muted af [actor] for [reason]'
+  ipTempBanned: '[ip] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
+  ipBanned: '[ip] er blevet permanent udelukket af [actor] for [reason]'
+  ipBanKick: Du er blevet permanent udelukket for [reason]
+  ipTempBanKick: Du er belevt midletidigt udelukket for [reason]
+  ipNotBanned: '[ip] er ikke udelukket'
+  playerUnmuted: '[player] er blevet unmuted af [actor]'
+  notMuted: '[player] er ikke muted'
   warned: '&cYou have been warned by [actor] for [reason]'
   playerWarned: '[player] has been warned by [actor] for [reason]'
   warnCooldown: '&cThis player was warned too recently, try again later'
   altsFound: 'Possible alts found:'
-  bminfoStatsSummary: '[player] has been banned [bans] times, muted [mutes] times
-    and warned [warns] times'
+  bminfoStatsSummary: '[player] has been banned [bans] times, muted [mutes] times and warned [warns] times'
   bminfoConnection: Their last connection was with [ip] on [lastSeen]
   bminfoIpStatsSummary: This ip has been banned [bans] times
   bminfoBanned: They are currently banned for [reason] by [actor] at [created] which expires in [expires]
