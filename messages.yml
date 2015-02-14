@@ -56,13 +56,13 @@ messages:
   ipNotBanned: '[ip] er ikke udelukket'
   playerUnmuted: '[player] er blevet unmuted af [actor]'
   notMuted: '[player] er ikke muted'
-  warned: '&cYou have been warned by [actor] for [reason]'
-  playerWarned: '[player] has been warned by [actor] for [reason]'
-  warnCooldown: '&cThis player was warned too recently, try again later'
-  altsFound: 'Possible alts found:'
-  bminfoStatsSummary: '[player] has been banned [bans] times, muted [mutes] times and warned [warns] times'
-  bminfoConnection: Their last connection was with [ip] on [lastSeen]
-  bminfoIpStatsSummary: This ip has been banned [bans] times
-  bminfoBanned: They are currently banned for [reason] by [actor] at [created] which expires in [expires]
-  bminfoMuted: They are currently muted for [reason] by [actor] at [created] which expires in [expires]
-  noSelf: '&cYou cannot perform that action on yourself!'
+  warned: '&cDu er blevet advaret af [actor] for [reason]'
+  playerWarned: '[player] er belevt advaret af [actor] for [reason]'
+  warnCooldown: '&cDenne spiller blev advaret for nygligt, prøv igen senere'
+  altsFound: 'Muligt alternativt navn fundet:'
+  bminfoStatsSummary: '[player] er blevet udelukket [bans] gange, muted [mutes] gange og advaret [warns] gange'
+  bminfoConnection: Sidste login var med følgende IP [ip] på [lastSeen]
+  bminfoIpStatsSummary: Denne IP er blevet udelukket [bans] gange
+  bminfoBanned: Personnen er i øjeblikket udelukket for [reason] af [actor] den [created] som udeløber om [expires]
+  bminfoMuted: Personnen er i øjeblikket muted for [reason] af [actor] den [created] som udeløber om [expires]
+  noSelf: '&cDu kan ikke bruge dette på dig selv!'
