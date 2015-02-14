@@ -6,31 +6,31 @@
 # [expires] = How long until the ban/mute ends
 
 messages:
-  disallowedIpPermBan: Your IP has been banned from this server for [reason]
-  disallowedIpTempBan: Your IP has been banned from this server for [reason] \nIt expires in [expires]
-  disallowedPermBan: You have been banned from this server for [reason]
-  disallowedTempBan: You have been banned from this server for [reason] \nIt expires in [expires]
-  duplicateIP: '&cWarning: [player] has the same IP as the following banned players:\n&6[players]'
-  mutedBlacklistedCommand: '&cYou may not use the [command] command whilst muted!'
-  muted: You have been permanently muted for [reason] by [actor]
-  tempMuted: You have been temporarily muted for [reason] by [actor] which expires in [expires]
-  configReloaded: '&aConfiguration reloaded successfully!'
-  timeLimitError: '&cYou cannot perform this action for that length of time'
-  timeNow: now
-  timeYear: year
-  timeYears: years
-  timeMonth: month
-  timeMonths: months
-  timeDay: day
-  timeDays: days
-  timeHour: hour
-  timeHours: hours
-  timeMinute: minute
-  timeMinutes: minutes
-  timeSecond: second
-  timeSeconds: seconds
-  never: never
-  none: none
+  disallowedIpPermBan: Din IP er blevet bannet fra serveren, for [reason]
+  disallowedIpTempBan: Din IP er blevet bannet fra serveren, for [reason] \nDet udløber om [expires]
+  disallowedPermBan: Du er blevet bannet fra serveren, for [reason]
+  disallowedTempBan: Du er blevet bannet fra serveren, for [reason] \nDet udløber om [expires]
+  duplicateIP: '&cAdvarsel: [player] har den samme IP, som følgende bannede spillere:\n&6[players]'
+  mutedBlacklistedCommand: '&cDu kan ikke bruge [command] mens du er muted!'
+  muted: Du er blevet permanent muted for [reason] af [actor]
+  tempMuted: Du er blevet midlertidigt muted for [reason] af [actor] som udløber om [expires]
+  configReloaded: '&aKonfigurationsfilen er blevet genindlæst!'
+  timeLimitError: '&cDu kan ikke udføre denne handling i den valgte tid'
+  timeNow: nu
+  timeYear: år
+  timeYears: år
+  timeMonth: måned
+  timeMonths: måneder
+  timeDay: dag
+  timeDays: dage
+  timeHour: time
+  timeHours: timer
+  timeMinute: minut
+  timeMinutes: minutter
+  timeSecond: sekund
+  timeSeconds: sekunder
+  never: aldrig
+  none: ingen
   errorOccurred: '&cAn error occured whilst attempting to perform that command. Please
     check the console for the error.'
   playerOffline: '&c[player] is offline'
