@@ -6,146 +6,143 @@
 # [expires] = How long until the ban/mute ends
 
 messages:
-  duplicateIP: '&cWarning: [player] has the same IP as the following banned players:\n&6[players]'
-  configReloaded: '&aConfiguration reloaded successfully!'
+  duplicateIP: '&cAdvarsel: [player] har samme IP som følgende udelukkede spillere:\n&6[players]'
+  configReloaded: '&aKonfigurationsfilen er blevet genindlæst!'
   time:
-    now: now
-    year: year
-    years: years
-    month: month
-    months: months
-    day: day
-    days: days
-    hour: hour
-    hours: hours
-    minute: minute
-    minutes: minutes
-    second: second
-    seconds: seconds
-    never: never
+    now: nu
+    year: år
+    years: år
+    month: måned
+    months: måneder
+    day: dag
+    days: dage
+    hour: time
+    hours: timer
+    minute: minut
+    minutes: minutter
+    second: sekund
+    seconds: sekunder
+    never: aldrig
     error:
-      invalid: '&cYour time length is invalid'
-      limit: '&cYou cannot perform this action for that length of time'
-  none: none
+      invalid: '&cDen valgte tid er ugyldig'
+      limit: '&cDu kan ikke udføre denne handling i den valgte tid'
+  none: ingen
   sender:
     error:
-      notFound: '&c[player] not found, are you sure they exist?'
-      offline: '&c[player] is offline'
-      noSelf: '&cYou cannot perform that action on yourself!'
-      exception: '&cAn error occured whilst attempting to perform that command. Please
-        check the console for the error'
-      invalidIp: '&cInvalid IP address, expecting w.x.y.z format'
-      offlinePermission: '&cYou may not perform this action on an offline player'
-      exempt: '&c[player] is exempt from that action'
+      notFound: '&c[player] blev ikke fundet, er du sikker på at personen eksistere?'
+      offline: '&c[player] er offline'
+      noSelf: '&cDu kan ikke gøre dette på dig selv!'
+      exception: '&cEn fejl er opstået i forsøget på at bruge denne kommando. Tjek konsolen for fejl.'
+      invalidIp: '&cUgyldig IP adresse, skal være i w.x.y.z format'
+      offlinePermission: '&cDu kan ikke gøre dette på en offline spiller'
+      exempt: '&c[player] er fritaget fra denne handling'
   alts:
-    header: 'Possible alts found:'
+    header: 'Mulige andre navne fundet:'
   import:
     error:
-      inProgress: '&cAn import is already in progress, please wait'
+      inProgress: '&cEn import er allerede i gang, vent venligst'
     player:
-      started: '&aPlayer ban import started'
-      finished: '&aPlayer ban import finished'
+      started: '&aImport af spiller udelukkelser er startet'
+      finished: '&aImport af spiller udelukkelser er afsluttet'
     ip:
-      started: '&aIP ban import started'
-      finished: '&aIP ban inport finished'
+      started: '&aImport af IP udelukkelser er startet'
+      finished: '&aImport af IP udelukkelser er afsluttet'
   info:
     stats:
-      player: '[player] has been banned [bans] times, muted [mutes] times and warned
-        [warns] times'
-      ip: This ip has been banned [bans] times
-    connection: Their last connection was with [ip] on [lastSeen]
+      player: '[player] er blevet udelukket [bans] gange, muted [mutes] gange og advaret [warns] gange'
+      ip: Denne IP er blevet udelukket [bans] gange
+    connection: Sidste login var med følgende IP [ip] den [lastSeen]
     ban:
-      permanent: Currently banned for [reason] by [actor] at [created]
-      temporary: Currently banned for [reason] by [actor] at [created] which expires in [expires]
+      permanent: I øjeblikket udelukket for [reason] af [actor] den [created]
+      temporary: I øjeblikket udelukket for [reason] af [actor] den [created] som udløber [expires]
     mute:
-      permanent: Currently muted for [reason] by [actor] at [created]
-      temporary: Currently muted for [reason] by [actor] at [created] which expires in [expires]
+      permanent: I øjeblikket muted for [reason] af [actor] den [created]
+      temporary: I æjeblikket muted for [reason] af [actor] den [created] som udløber [expires]
   kick:
     player:
-      noReason: You have been kicked
-      reason: You have been kicked for [reason]
-    notify: '[player] has been kicked by [actor] for [reason]'
+      noReason: Du er blevet smidt ud
+      reason: Du er blevet smidt ud for [reason]
+    notify: '[player] er blevet smidt ud af [actor] for [reason]'
   ban:
     player:
-      disallowed: You have been banned from this server for [reason]
-      kick: You have been banned permanently for [reason]
-    notify: '[player] has been permanently banned by [actor] for [reason]'
+      disallowed: Du er blevt udelukket fra serveren for [reason]
+      kick: Du er blevet udelukket permanent fra serveren for [reason]
+    notify: '[player] er blevet udelukket permanent af [actor] for [reason]'
     error:
-      exists: '&c[player] is already banned'
+      exists: '&c[player] er allerede udelukket'
   banall:
-    notify: '[player] will be permanently banned by [actor] for [reason]'
+    notify: '[player] vil blive permanent udelukket af [actor] for [reason]'
   tempban:
     player:
-      disallowed: You have been banned from this server for [reason] \nIt expires in [expires]
-      kick: You have been temporarily banned for [reason]
-    notify: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
+      disallowed: Du er blevet midlertidigt udelukket fra serveren for [reason] \nUdløber om [expires]
+      kick: Du er blevet midlertidigt udelukket for [reason]
+    notify: '[player] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
   tempbanall:
-    notify: '[player] will be temporarily banned for [expires] by [actor] for [reason]'
+    notify: '[player] vil bliver midlertidigt udelukket i [expires] af [actor] for [reason]'
   unban:
-    notify: '[player] has been unbanned by [actor]'
+    notify: '[player] er blevet unbannedigen af [actor]'
     error:
-      noExists: '&c[player] is not banned'
-      notOwn: '&c[player] was not banned by you, unable to unban'
+      noExists: '&c[player] er ikke udelukket'
+      notOwn: '&c[player] blev ikke udelukket af dig, det var ikke muligt at unabnne spilleren'
   unbanall:
-    notify: '[player] will be unbanned by [actor]'
+    notify: '[player] vil blive unbanned af [actor]'
   mute:
     player:
-      blocked: '&cYou may not use the [command] command whilst muted!'
-      disallowed: You have been permanently muted for [reason] by [actor]
-    notify: '[player] has been permanently muted by [actor] for [reason]'
+      blocked: '&cDu kan ikke gøre dette [command] men du er muted!'
+      disallowed: Du er blevet permanent muted for [reason] af [actor]
+    notify: '[player] er blevet permanent muted af [actor] for [reason]'
     error:
-      exists: '&c[player] is already muted'
+      exists: '&c[player] er allerede muted'
   muteall:
-    notify: '[player] will be permanently muted by [actor] for [reason]'
+    notify: '[player] vil blive permanent muted af [actor] for [reason]'
   tempmute:
     player:
-      disallowed: You have been temporarily muted for [reason] by [actor] which expires in [expires]
-    notify: '&c[player] has been temporarily muted for [expires] by [actor] for [reason]'
+      disallowed: Du er blevet midlertidigt muted for [reason] af [actor] som udeløber om [expires]
+    notify: '&c[player] er blevet midlertidigt muted i [expires] af [actor] for [reason]'
     error:
-      exists: '&c[player] is already muted'
+      exists: '&c[player] er allerede muted'
   tempmuteall:
-    notify: '&c[player] will be temporarily muted for [expires] by [actor] for [reason]'
+    notify: '&c[player] vil blive midlertidigt muted i [expires] af [actor] for [reason]'
   unmute:
-    notify: '[player] has been unmuted by [actor]'
+    notify: '[player] er blevet unmuted af [actor]'
     error:
-      noExists: '&c[player] is not muted'
-      notOwn: '&c[player] was not muted by you, unable to unmute'
+      noExists: '&c[player] er ikke muted'
+      notOwn: '&c[player] blev ikke muted af dig, kunne ikke unmute'
   unmuteall:
-    notify: '[player] will be unmuted by [actor]'
+    notify: '[player] vil blive unmuted af [actor]'
   banip:
     ip:
-      disallowed: You have been banned from this server for [reason]
-      kick: You have been banned permanently for [reason]
-    notify: '[ip] has been permanently banned by [actor] for [reason]'
+      disallowed: Du er blevet udelukket fra denne server for [reason]
+      kick: Du er blevet udelukket fra denne server for  [reason]
+    notify: '[ip] er blevet udelukket permanent fra denne server af [actor] for [reason]'
     error:
-      exists: '&c[ip] is already banned'
+      exists: '&c[ip] er allerede udelukket'
   banipall:
-    notify: '[ip] will be permanently banned by [actor] for [reason]'
+    notify: '[ip] vil blive permanent udelukket af [actor] for [reason]'
   tempbanip:
     ip:
-      disallowed: You have been banned from this server for [reason] \nIt expires in [expires]
-      kick: You have been temporarily banned for [reason]
-    notify: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
+      disallowed: Du er blevet udelukket fra denne server for [reason] \nUdløber om [expires]
+      kick: Du er blevet midlertidigt udelukket fra denne server for [reason]
+    notify: '[player] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
   tempbanipall:
-    notify: '[player] will be temporarily banned for [expires] by [actor] for [reason]'
+    notify: '[player] vil bliver midlertidigt udelukket i [expires] af [actor] for [reason]'
   unbanip:
-    notify: '[ip] has been unbanned by [actor]'
+    notify: '[ip] er blevet unbanned af [actor]'
     error:
-      noExists: '&c[ip] is not banned'
+      noExists: '&c[ip] er ikke udelukket'
   unbanipall:
-    notify: '[ip] will be unbanned by [actor]'
+    notify: '[ip] vil blive unbannet af [actor]'
   warn:
     player:
-      warned: '&cYou have been warned by [actor] for [reason]'
-    notify: '[player] has been warned by [actor] for [reason]'
+      warned: '&cDu er blevet advaret af [actor] for [reason]'
+    notify: '[player] er blevet advaret af [actor] for [reason]'
     error:
-      cooldown: '&cThis player was warned too recently, try again later'
+      cooldown: '&cDenne spiller blev advaret for nygligt, prøv igen senere'
   dwarn:
-    notify: The most recent warning for [player] has been deleted
+    notify: Seneste advarsel af [player] er blevet slettet
     error:
-      noWarnings: '&c[player] has no warnings to delete'
+      noWarnings: '&c[player] har ingen advarsler der kan slettes'
   bmclear:
-    notify: '[player] has had their [type] cleared'
+    notify: '[player] har fået rydet [type]'
     error:
-      invalid: '&cInvalid type, please choose between banrecords, muterecords, kicks
-        or warnings'
+      invalid: '&cUgyldig type, vælg mellem udelukkelser, mutes, kicks eller advarsler'
