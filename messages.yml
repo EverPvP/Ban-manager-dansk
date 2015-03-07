@@ -123,9 +123,9 @@ messages:
     ip:
       disallowed: Du er blevet udelukket fra denne server for [reason] \nUdløber om [expires]
       kick: Du er blevet midlertidigt udelukket fra denne server for [reason]
-    notify: '[player] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
+    notify: '[ip] er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
   tempbanipall:
-    notify: '[player] vil bliver midlertidigt udelukket i [expires] af [actor] for [reason]'
+    notify: '[ip] vil bliver midlertidigt udelukket i [expires] af [actor] for [reason]'
   unbanip:
     notify: '[ip] er blevet unbanned af [actor]'
     error:
