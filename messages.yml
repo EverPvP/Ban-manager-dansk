@@ -28,27 +28,27 @@ messages:
       invalid: '&cDen valgte tid er ugyldig'
       limit: '&cDu kan ikke udføre denne handling i den valgte tid'
 
-  none: 'none'
+  none: 'Ingen'
 # General command text
   sender:
     error:
-      notFound: '&c[player] not found, are you sure they exist?'
-      offline: '&c[player] is offline'
-      noSelf: '&cYou cannot perform that action on yourself!'
-      exception: '&cAn error occured whilst attempting to perform that command. Please check the console for the error'
-      invalidIp: '&cInvalid IP address, expecting w.x.y.z format'
-      offlinePermission: '&cYou may not perform this action on an offline player'
-      exempt: '&c[player] is exempt from that action'
+      notFound: '&c[player] ikke fundet. Er du sikker på de eksistere?'
+      offline: '&c[player] er offline'
+      noSelf: '&cDu kan ikke gøre dette på dig selv!'
+      exception: '&cEn fejl er opstået i forsøget på at bruge denne kommando. Tjek konsolen for fejl.'
+      invalidIp: '&cUgyldig IP adresse, skal være i w.x.y.z format'
+      offlinePermission: '&cDu kan ikke gøre dette på en offline spiller'
+      exempt: '&c[player] er fritaget fra denne handling'
 # Commands
   alts:
-    header: 'Possible alts found:'
+    header: 'Mulige andre navne fundet:'
 
   import:
     error:
-      inProgress: '&cAn import is already in progress, please wait'
+      inProgress: '&cEn import er allerede i gang, vent venligst'
     player:
-      started: '&aPlayer ban import started'
-      finished: '&aPlayer ban import finished'
+      started: '&aImport af spiller udelukkelser er startet'
+      finished: '&aImport af spiller udelukkelser er afsluttet'
     ip:
       started: '&aIP ban import started'
       finished: '&aIP ban inport finished'
