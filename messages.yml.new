@@ -6,27 +6,27 @@
 # [expires] = How long until the ban/mute ends
 
 messages:
-  duplicateIP: '&cWarning: [player] has the same IP as the following banned players:\n&6[players]'
-  configReloaded: '&aConfiguration reloaded successfully!'
+  duplicateIP: '&cAdvarsel: [player] har samme IP som følgende udelukkede spillere:\n&6[players]'
+  configReloaded: '&aKonfigurationsfilen er blevet genindlæst!'
 
   time:
-    now: 'now'
-    year: 'year'
-    years: 'years'
-    month: 'month'
-    months: 'months'
-    day: 'day'
-    days: 'days'
-    hour: 'hour'
-    hours: 'hours'
-    minute: 'minute'
-    minutes: 'minutes'
-    second: 'second'
-    seconds: 'seconds'
-    never: 'never'
+    now: nu
+    year: år
+    years: år
+    month: måned
+    months: måneder
+    day: dag
+    days: dage
+    hour: time
+    hours: timer
+    minute: minut
+    minutes: minutter
+    second: sekund
+    seconds: sekunder
+    never: aldrig
     error:
-      invalid: '&cYour time length is invalid'
-      limit: '&cYou cannot perform this action for that length of time'
+      invalid: '&cDen valgte tid er ugyldig'
+      limit: '&cDu kan ikke udføre denne handling i den valgte tid'
 
   none: 'none'
 # General command text
