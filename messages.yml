@@ -50,22 +50,22 @@ messages:
       started: '&aImport af spiller udelukkelser er startet'
       finished: '&aImport af spiller udelukkelser er afsluttet'
     ip:
-      started: '&aIP ban import started'
-      finished: '&aIP ban inport finished'
+      started: '&aImport af IP udelukkelser er startet'
+      finished: '&aImport af IP udelukkelser er afsluttet'
 
   info:
     stats:
-      player: '[player] has been banned [bans] times, muted [mutes] times and warned [warns] times'
-      ip: 'This ip has been banned [bans] times'
-    connection: 'Their last connection was with [ip] on [lastSeen]'
+      player: '[player] er blevet udelukket [bans] gange, muted [mutes] gange og advaret [warns] gange'
+      ip: 'Denne IP er blevet udelukket [bans] gange'
+    connection: 'Sidste login var med følgende IP [ip] den [lastSeen]'
     ban:
       permanent: 'Currently banned for [reason] by [actor] at [created]'
       temporary: 'Currently banned for [reason] by [actor] at [created] which expires in [expires]'
-      dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
+      dateTimeFormat: 'dd-MM-yyyy TT:mm:ss'
     mute:
       permanent: 'Currently muted for [reason] by [actor] at [created]'
       temporary: 'Currently muted for [reason] by [actor] at [created] which expires in [expires]'
-      dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
+      dateTimeFormat: 'dd-MM-yyyy TT:mm:ss'
     website:
       player: 'http://yourdomain.com/index.php?action=viewplayer&player=[player]&server=0'
       ip: 'http://yourdomain.com/index.php?action=viewip&ip=[ip]&server=0'
