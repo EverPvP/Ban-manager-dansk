@@ -59,16 +59,16 @@ messages:
       ip: 'Denne IP er blevet udelukket [bans] gange'
     connection: 'Sidste login var med følgende IP [ip] den [lastSeen]'
     ban:
-      permanent: 'Currently banned for [reason] by [actor] at [created]'
-      temporary: 'Currently banned for [reason] by [actor] at [created] which expires in [expires]'
+      permanent: 'I øjeblikket udelukket for [reason] af [actor] den [created]'
+      temporary: 'I øjeblikket udelukket for [reason] af [actor] den [created] som udløber [expires]'
       dateTimeFormat: 'dd-MM-yyyy TT:mm:ss'
     mute:
-      permanent: 'Currently muted for [reason] by [actor] at [created]'
-      temporary: 'Currently muted for [reason] by [actor] at [created] which expires in [expires]'
+      permanent: 'I øjeblikket muted for [reason] af [actor] den [created]'
+      temporary: 'I øjeblikket muted for [reason] af [actor] den [created] som udløber [expires]'
       dateTimeFormat: 'dd-MM-yyyy TT:mm:ss'
     website:
       player: 'http://bans.everpvp.dk/player/[player]'
-      ip: 'http://yourdomain.com/index.php?action=viewip&ip=[ip]&server=0'
+      ip: 'http://bans.everpvp.dk/ipbans'
 
   kick:
     player:
