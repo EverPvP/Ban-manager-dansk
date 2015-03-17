@@ -57,7 +57,7 @@ messages:
       temporary: I øjeblikket udelukket for [reason] af [actor] den [created] som udløber [expires]
     mute:
       permanent: I øjeblikket muted for [reason] af [actor] den [created]
-      temporary: I æjeblikket muted for [reason] af [actor] den [created] som udløber [expires]
+      temporary: I øjeblikket muted for [reason] af [actor] den [created] som udløber [expires]
   kick:
     player:
       noReason: Du er blevet smidt ud
