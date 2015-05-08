@@ -72,25 +72,25 @@ messages:
 
   kick:
     player:
-      noReason: 'You have been kicked'
-      reason: 'You have been kicked for [reason]'
-    notify: '[player] has been kicked by [actor] for [reason]'
+      noReason: 'Du er blevet smidt ud'
+      reason: 'DU er blevet smidt ud for [reason]'
+    notify: '[player] er blevet smidt ud af [actor] for [reason]'
 
   ban:
     player:
-      disallowed: 'You have been banned from this server for [reason]'
-      kick: 'You have been banned permanently for [reason]'
-    notify: '[player] has been permanently banned by [actor] for [reason]'
+      disallowed: 'Du er blevet udelukket fra EverPvP for [reason]'
+      kick: 'Du er blevet permanent udelukket fra EverPvP for [reason]'
+    notify: '[player] er blevet permanent udelukket af [actor] for [reason]'
     error:
-      exists: '&c[player] is already banned'
+      exists: '&c[player] er allerede udelukket'
 
   banall:
-    notify: '[player] will be permanently banned by [actor] for [reason]'
+    notify: '[player] bliver permanent udelukket fra EverPvP af [actor] for [reason]'
 
   tempban:
     player:
-      disallowed: 'You have been banned from this server for [reason] \nIt expires in [expires]'
-      kick: 'You have been temporarily banned for [reason]'
+      disallowed: 'Du er blevet midlertidigt udelukket fra EverPvP for [reason] \nDet udeløber om [expires]'
+      kick: 'Du er blevet permanent udelukket fra EVerPvP for [reason]'
     notify: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
 
   tempbanall:
