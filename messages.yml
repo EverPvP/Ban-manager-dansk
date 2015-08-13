@@ -91,7 +91,7 @@ messages:
     player:
       disallowed: 'Du er blevet midlertidigt udelukket fra EverPvP for [reason] \nDet udeløber om [expires]'
       kick: 'Du er blevet permanent udelukket fra EVerPvP for [reason]'
-    notify: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
+    notify: '[player] Er blevet midlertidigt udelukket i [expires] af [actor] for [reason]'
 
   tempbanall:
     notify: '[player] will be temporarily banned for [expires] by [actor] for [reason]'
