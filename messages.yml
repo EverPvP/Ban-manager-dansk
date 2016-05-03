@@ -76,42 +76,42 @@ messages:
     error:
       incorrectFlagUsage: '&cEt flag er ikke brugt korrekt'
     stats:
-      player: '&6[player] er blevet bannet [bans] gange, muted [mutes] gange, kicked [kicks] gange og advaret [warns]
+      player: '&6[player] er blevet bannet [bans] gange, gjort tavs [mutes] gange, sparket ud [kicks] gange og advaret [warns]
       gange ([warnPoints] points)'
-      ip: '&6Denne IP er blevet banned [bans] gange'
-    connection: '&6Their last connection was with [ip] on [lastSeen]'
-    geoip: 'Country: [country] City: [city]'
+      ip: '&6Denne IP er blevet bannet [bans] gange'
+    connection: '&6Dennes sidste forbindelse til serveren var fra [ip] den [lastSeen]'
+    geoip: 'Land: [country] By: [city]'
     ban:
-      permanent: '&6Currently banned for &4[reason]&6 by [actor] at [created]'
-      temporary: '&6Currently banned for &4[reason]&6 by [actor] at [created] which expires in [expires]'
+      permanent: '&6I øjeblikket bannet for &4[reason]&6 af [actor] den [created]'
+      temporary: '&6I øjeblikket bannet for &4[reason]&6 af [actor] den [created] hvilket udeløber om [expires]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
     mute:
-      permanent: '&6Currently muted for &4[reason]&6 by [actor] at [created]'
-      temporary: '&6Currently muted for &4[reason]&6 by [actor] at [created] which expires in [expires]'
+      permanent: '&6I øjeblikket gjort tavs for &4[reason]&6 af [actor] den [created]'
+      temporary: '&6I øjeblikket gjort tavs for &4[reason]&6 af [actor] den [created] hvilket udeløber om [expires]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
     website:
       player: 'https://bans.everpvp.dk/player/[player]'
-      ip: 'Ikke tilgængelig'
+      ip: 'https://bans.everpvp.dk/ip/[ip]'
     history:
       row: '&7#[id] &a[&f[type]&a] &6[actor]&f [reason] - &e[created]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
-      noResults: '&cNo results found'
+      noResults: '&cIngen resultater'
 
   kick:
     player:
-      noReason: '&6You have been kicked'
-      reason: '&6You have been kicked for &4[reason]'
+      noReason: '&6Du er blevet sparket ud'
+      reason: '&6Du er blevet sparket ud grundet &4[reason]'
     notify:
-      noReason: '&6[player] has been kicked by [actor]'
-      reason: '&6[player] has been kicked by [actor] for &4[reason]'
+      noReason: '&6[player] er blevet sparket ud af [actor]'
+      reason: '&6[player] er blevet sparket ud af [actor] grundet &4[reason]'
 
   ban:
     player:
-      disallowed: '&6You have been banned from this server for &4[reason]'
-      kick: '&6You have been banned permanently for &4[reason]'
-    notify: '&6[player] has been permanently banned by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason]'
+      kick: '&6Du er blevet permanent bannet fra EverPvP grundet &4[reason]'
+    notify: '&6[player] er blevet permanent bannet fra EverPvP af [actor] grundet &4[reason]'
     error:
-      exists: '&c[player] is already banned'
+      exists: '&c[player] er allerede udelukket'
 
   banall:
     notify: '&6[player] will be permanently banned by [actor] for &4[reason]'
