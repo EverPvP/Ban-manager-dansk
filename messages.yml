@@ -10,10 +10,10 @@ messages:
   duplicateIP: '&cAdvarsel: [player] har samme IP som følgende bannede spillere:\n&6[players]'
   configReloaded: '&aKonfigurationsfilen blev genindlæst!'
   deniedNotify:
-    player: '&cWarning: [player] attempted to join the server but was denied due to &4[reason]'
-    ip: '&cWarning: [ip] attempted to join the server but was denied due to &4[reason]'
-  deniedMaxIp: '&cToo many players with your ip address online'
-  deniedCountry: '&cYou may not connect from your region'
+    player: '&cAdvarsel: [player] forsøgte at logge ind på serveren, men blev afvist grundet &4[reason]'
+    ip: '&cAdvarsel: [ip] forsøgte at logge ind på serveren, men blev afvist grundet &4[reason]'
+  deniedMaxIp: '&cDer er for mange online fra IPen [ip]'
+  deniedCountry: '&cDu kan ikke logge ind fra dette land'
 
   time:
     now: 'nu'
@@ -40,45 +40,45 @@ messages:
 # General command text
   sender:
     error:
-      notFound: '&c[player] not found, are you sure they exist?'
-      offline: '&c[player] is offline'
-      noSelf: '&cYou cannot perform that action on yourself!'
-      exception: '&cAn error occured whilst attempting to perform this command. Please check the console for further details.'
-      invalidIp: '&cInvalid IP address, expecting w.x.y.z format'
-      offlinePermission: '&cYou are not allowed to perform this action on an offline player'
-      exempt: '&c[player] is exempt from that action'
-      noPermission: '&cYou do not have permission to perform that action'
+      notFound: '&c[player] blev ikke fundet.'
+      offline: '&c[player] er offline'
+      noSelf: '&cDu kan ikke gøre dette på dig selv!'
+      exception: '&cEn fejl er opstået under forsøget på at udføre denne kommando. Kontakt Anders eller Jens og forklar hvad du gjorde og hvornår du gjorde det.'
+      invalidIp: '&cUgyldig IP, forventede w.x.y.z formattet'
+      offlinePermission: '&cDu har ikke lov til at gøre dette på en spiller der ikke er online'
+      exempt: '&c[player] er fritaget fra dette'
+      noPermission: '&cDu har ikke tilladelse til at gøre dette'
 # Commands
   alts:
-    header: 'Possible alts found:'
+    header: 'Mulig alts?? fundet:'
 
   export:
     error:
-      inProgress: '&cAn export is already in progress, please wait'
+      inProgress: '&cEn eksport er allerede i gang. Vent venligst'
     player:
-      started: '&aPlayer ban export started'
-      finished: '&aPlayer ban export finished, file [file] created'
+      started: '&aSpiller ban eksport er startet'
+      finished: '&aSpiller ban eksport er afsluttet, filen [file] oprettet'
     ip:
-      started: '&aIP ban export started'
-      finished: '&aIP ban export finished, file [file] created'
+      started: '&aIP ban eksport er startet'
+      finished: '&aIP ban ban eksport er afsluttet, filen [file] oprettet'
 
   import:
     error:
-      inProgress: '&cAn import is already in progress, please wait'
+      inProgress: '&cEn import er allerede i gang. Vent venligst'
     player:
-      started: '&aPlayer ban import started'
-      finished: '&aPlayer ban import finished'
+      started: '&aSpiller ban import er startet'
+      finished: '&aSpiller ban import er afsluttet'
     ip:
-      started: '&aIP ban import started'
-      finished: '&aIP ban import finished'
+      started: '&aIP ban import er startet'
+      finished: '&aIP ban import er afsluttet'
 
   info:
     error:
-      incorrectFlagUsage: '&cA flag has been incorrectly used'
+      incorrectFlagUsage: '&cEt flag er ikke brugt korrekt'
     stats:
-      player: '&6[player] has been banned [bans] times, muted [mutes] times, kicked [kicks] times and warned [warns]
-      times ([warnPoints] Points)'
-      ip: '&6This ip has been banned [bans] times'
+      player: '&6[player] er blevet bannet [bans] gange, muted [mutes] gange, kicked [kicks] gange og advaret [warns]
+      gange ([warnPoints] points)'
+      ip: '&6Denne IP er blevet banned [bans] gange'
     connection: '&6Their last connection was with [ip] on [lastSeen]'
     geoip: 'Country: [country] City: [city]'
     ban:
@@ -90,8 +90,8 @@ messages:
       temporary: '&6Currently muted for &4[reason]&6 by [actor] at [created] which expires in [expires]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
     website:
-      player: 'http://yourdomain.com/index.php?action=viewplayer&player=[player]&server=0'
-      ip: 'http://yourdomain.com/index.php?action=viewip&ip=[ip]&server=0'
+      player: 'https://bans.everpvp.dk/player/[player]'
+      ip: 'Ikke tilgængelig'
     history:
       row: '&7#[id] &a[&f[type]&a] &6[actor]&f [reason] - &e[created]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
