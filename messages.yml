@@ -114,34 +114,34 @@ messages:
       exists: '&c[player] er allerede udelukket'
 
   banall:
-    notify: '&6[player] will be permanently banned by [actor] for &4[reason]'
+    notify: '&6[player] vil blive permanent bannet af [actor] grundet &4[reason]'
 
   tempban:
     player:
-      disallowed: '&6You have been temporarily banned from this server for &4[reason] \n&6It expires in [expires]'
-      kick: '&6You have been temporarily banned for &4[reason]'
-    notify: '&6[player] has been temporarily banned for [expires] by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet midlertidigt bannet fra EverPvP grundet &4[reason] \n&6Udløber om [expires]'
+      kick: '&6Du er blevet midlertidigt bannet fra EverPvP grundet &4[reason]'
+    notify: '&6[player] er blevet midlertidigt bannet fra EverPvP i [expires] af [actor] grundet &4[reason]'
 
   tempbanall:
-    notify: '&6[player] will be temporarily banned for [expires] by [actor] for &4[reason]'
+    notify: '&6[player] vil blive midlertidigt bannet fra EverPvP i [expires] af [actor] grundet &4[reason]'
 
   unban:
-    notify: '&6[player] has been unbanned by [actor]'
+    notify: '&6[player] er blevet unbannet af [actor]'
     error:
-      noExists: '&c[player] is not banned'
-      notOwn: '&c[player] was not banned by you, unable to unban'
+      noExists: '&c[player] er ikke bannet'
+      notOwn: '&c[player] blev ikke bannet af dig, du kan derfor ikke unbanne spilleren'
 
   unbanall:
-    notify: '&6[player] will be unbanned by [actor]'
+    notify: '&6[player] vil blive unbannet af [actor]'
 
   mute:
     player:
-      blocked: '&cYou may not use the [command] command whilst muted!'
-      disallowed: '&6You have been permanently muted for &4[reason] &6by [actor]'
-      broadcast: '&4[Muted]&r [message]'
-    notify: '&6[player] has been permanently muted by [actor] for &4[reason]'
+      blocked: '&cDU kan ikke bruge [command] mens du er gjort tavs!'
+      disallowed: '&6Du er blevet gjort permanent tavs, grundet &4[reason] &6af [actor]'
+      broadcast: '&4[Tavs]&r [message]'
+    notify: '&6[player] er blvete gjor permanent tavs af [actor] grundet &4[reason]'
     error:
-      exists: '&c[player] is already muted'
+      exists: '&c[player] er allerede gjort tavs'
 
   muteip:
     ip:
