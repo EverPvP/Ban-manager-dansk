@@ -139,7 +139,7 @@ messages:
       blocked: '&cDu kan ikke bruge [command] mens du er gjort tavs!'
       disallowed: '&6Du er blevet gjort permanent tavs, grundet &4[reason] &6af [actor]'
       broadcast: '&4[Tavs]&r [message]'
-    notify: '&6[player] er blvete gjor permanent tavs af [actor] grundet &4[reason]'
+    notify: '&6[player] er blevet gjort permanent tavs af [actor] grundet &4[reason]'
     error:
       exists: '&c[player] er allerede gjort tavs'
 
