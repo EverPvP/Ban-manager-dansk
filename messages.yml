@@ -145,14 +145,14 @@ messages:
 
   muteip:
     ip:
-      disallowed: '&6You have been banned from this server for &4[reason]'
-      broadcast: '&4[Muted]&r [message]'
-    notify: '&6[ip] ([players]) have been permanently muted by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason]'
+      broadcast: '&4[Tavs]&r [message]'
+    notify: '&6[ip] ([players]) er blevet gjort tavse for evigt af [actor] grundet &4[reason]'
     error:
-      exists: '&c[ip] is already muted'
+      exists: '&c[ip] er allerede gjort tavs'
 
   muteall:
-    notify: '&6[player] will be permanently muted by [actor] for &4[reason]'
+    notify: '&6[player] vil blive gjort tavs for evigt af [actor] grundet &4[reason]'
 
   tempmute:
     player:
@@ -284,21 +284,21 @@ messages:
     notify: '&c[player] will have a new attached by [actor]: [message]'
 
   banlist:
-    header: '&6There are [bans] [type] bans:'
+    header: '&6Der er [bans] [type] bans:'
 
   bmactivity:
     row:
       all: '&a[&f[type]&a] &6[player]&f - &6[actor]&f - &e[created]'
       player: '&a[&f[type]&a] &6[player]&f - &e[created]'
       dateTimeFormat: 'dd-MM-yyyy HH:mm:ss'
-    noResults: '&cNo results found'
+    noResults: '&cIntet fundet'
 
   bmdelete:
-    notify: '&a[rows] rows deleted'
+    notify: '&a[rows] rækker slettet'
     error:
-      invalid: '&cInvalid type, please choose between banrecords, muterecords, kicks, notes or warnings'
-      invalidId: '&c[id] is not a valid number'
+      invalid: '&cUgyldig type, vælg i mellem banrecords, muterecords, kicks, notes eller warnings'
+      invalidId: '&c[id] er ikke et gyldigt nummer'
 
   denyalts:
     player:
-      disallowed: '&cThe IP address you are joining from is linked to a banned player'
+      disallowed: '&cDin IP addresse er linket til en bannet spiller'
