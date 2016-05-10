@@ -163,28 +163,28 @@ messages:
 
   tempmuteip:
     ip:
-      disallowed: '&6You have been temporarily muted for &4[reason] &6by [actor] which expires in [expires]'
-    notify: '&6[ip] ([players]) have been temporarily muted for [expires] by [actor] for &4[reason]'
+      disallowed: '&6Du er midlertidigt gjort tavs grundet &4[reason] &6af [actor] hvilket udløber om [expires]'
+    notify: '&6[ip] ([players]) er blevet midlertidigt gjort tavs i [expires] af [actor] grundet &4[reason]'
     error:
-      exists: '&c[ip] is already muted'
+      exists: '&c[ip] er allerede tavs'
 
   tempmuteall:
-    notify: '&6[player] will be temporarily muted for [expires] by [actor] for &4[reason]'
+    notify: '&6[player] vil blive midlertidigt gjort tavs i [expires] af [actor] grundet &4[reason]'
 
   unmute:
-    notify: '&6[player] has been unmuted by [actor]'
+    notify: '&6[player] kan nu snakke igen'
     error:
-      noExists: '&c[player] is not muted'
-      notOwn: '&c[player] was not muted by you, unable to unmute'
+      noExists: '&c[player] er ikke gjort tavs'
+      notOwn: '&c[player] blev ikke gjort tavs af dig, du kan derfor ikke fjerne det'
 
   unmuteip:
-    notify: '&6[ip] has been unmuted by [actor]'
+    notify: '&6[ip] kan nu snakke igen'
     error:
-      noExists: '&c[ip] is not muted'
-      notOwn: '&c[ip] was not muted by you, unable to unmute'
+      noExists: '&c[ip] er ikke tavs'
+      notOwn: '&c[ip] blev ikke gjort tavs af dig, du kan derfor ikke fjerne det'
 
   unmuteall:
-    notify: '&6[player] will be unmuted by [actor]'
+    notify: '&6[player] kan nu snakke igen'
 
   banip:
     ip:
