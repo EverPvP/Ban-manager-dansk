@@ -207,60 +207,60 @@ messages:
   tempbaniprange:
     notify: '&6[from] - [to] er blevet midliertidigt bannet fra EverPvP i [expires] af [actor]'
     ip:
-      disallowed: '&6You have been banned from this server for &4[reason] \n&6It expires in [expires]'
-      kick: '&6You have been temporarily banned for [expires] by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason] \n&6Hvilket udløber om [expires]'
+      kick: '&6Du er blevet midlertidigt bannet fra EverPvP i [expires] af [actor] grundet &4[reason]'
 
   unbaniprange:
-    notify: '&6[from] - [to] has been unbanned by [actor]'
+    notify: '&6[from] - [to] er blevet unbannet af [actor]'
 
   banipall:
-    notify: '&6[ip] will be permanently banned by [actor] for &4[reason]'
+    notify: '&6[ip] vil blive permanent udelukket fra EverPvP af [actor] grundet &4[reason]'
 
   tempbanip:
     ip:
-      disallowed: '&6You have been banned from this server for &4[reason] \n&6It expires in [expires]'
-      kick: '&6You have been temporarily banned for &4[reason]'
-    notify: '&6[ip] ([players]) has been temporarily banned for [expires] by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason] \n&6Hvilket udløber om [expires]'
+      kick: '&6Du er blevet midlertidigt bannet fra EverPvP grundet &4[reason]'
+    notify: '&6[ip] ([players]) er blevet midlertidigt bannet fra EverPvP i [expires] af [actor] grundet &4[reason]'
 
   tempbanipall:
-    notify: '&6[ip] will be temporarily banned for [expires] by [actor] for &4[reason]'
+    notify: '&6[ip] vill blive midlertidigt bannet fra EverPvP i [expires] af [actor] grundet &4[reason]'
 
   unbanip:
-    notify: '&6[ip] has been unbanned by [actor]'
+    notify: '&6[ip] er blevet unbannet af [actor]'
     error:
-      noExists: '&c[ip] is not banned'
+      noExists: '&c[ip] er ikke bannet'
 
   unbanipall:
-    notify: '&6[ip] will be unbanned by [actor]'
+    notify: '&6[ip] vil blive unbannet af [actor]'
 
   warn:
     player:
-      warned: '&6You have been warned by [actor] for &4[reason]'
-    notify: '&6[player] has been warned by [actor] for &4[reason]'
+      warned: '&6Du er blevet advaret af [actor] grundet &4[reason]'
+    notify: '&6[player] er blevet advaret af [actor] grundet &4[reason]'
     error:
-      cooldown: '&cThis player was warned too recently, try again later'
+      cooldown: '&cDenne spiller blev advaret for nyligt, prøv igen senere'
 
   tempwarn:
     player:
-      warned: '&6You have been warned for [expires] by [actor] for &4[reason]'
-    notify: '&6[player] has been warned for [expires] by [actor] for &4[reason]'
+      warned: '&6Du er blevet advaret i [expires] af [actor] grundet &4[reason]'
+    notify: '&6[player] er blevet advaret i [expires] af [actor] grundet &4[reason]'
 
   dwarn:
     player:
-      notify: '&6Your most recent warning has been deleted by &4[actor]'
-    notify: '&cThe most recent warning for [player] has been deleted'
+      notify: '&6Din nyeste advarsel er blevet slettet af &4[actor]'
+    notify: '&cDen nyeste advarsel for [player] er blevet slettet'
     error:
-      noWarnings: '&c[player] has no warnings to delete'
+      noWarnings: '&c[player] har ingen advarsler der kan slettes'
 
   bmclear:
-    notify: '&c[player] has had their [type] cleared'
+    notify: '&c[player] har fået dennes [type] rydet'
     error:
-      invalid: '&cInvalid type, please choose between banrecords, muterecords, kicks, notes or warnings'
+      invalid: '&cUgyldig type, vælg mellem banrecords, muterecords, kicks, notes eller warnings'
 
   sync:
     player:
-      started: '&aStarting force [type] synchronisation'
-      finished: '&aForced [type] synchronisation complete'
+      started: '&aStarter tvungen [type] synkronisering'
+      finished: '&aTvungen [type] synkronisering gennemført'
 
   update:
     notify: '&6[BanManager] &aEn opdatering er tilgængelig'
