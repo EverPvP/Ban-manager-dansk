@@ -156,10 +156,10 @@ messages:
 
   tempmute:
     player:
-      disallowed: '&6You have been temporarily muted for &4[reason] &6by [actor] which expires in [expires]'
-    notify: '&6[player] has been temporarily muted for [expires] by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet midlertidigt gjort tavs grundet &4[reason] &6af [actor] hvilket udløber om [expires]'
+    notify: '&6[player] er blevet midlertidigt gjort tavs i [expires] af [actor] grundet &4[reason]'
     error:
-      exists: '&c[player] is already muted'
+      exists: '&c[player] er allerede tavs'
 
   tempmuteip:
     ip:
@@ -263,7 +263,7 @@ messages:
       finished: '&aForced [type] synchronisation complete'
 
   update:
-    notify: '&6[BanManager] &aAn update is available'
+    notify: '&6[BanManager] &aEn opdatering er tilgængelig'
 
   notes:
     header: '&6[player] has the following notes:'
