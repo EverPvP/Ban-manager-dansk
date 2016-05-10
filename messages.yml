@@ -188,24 +188,24 @@ messages:
 
   banip:
     ip:
-      disallowed: '&6You have been banned from this server for &4[reason]'
-      kick: '&6You have been banned permanently for &4[reason]'
-    notify: '&6[ip] ([players]) has been permanently banned by [actor] for &4[reason]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason]'
+      kick: '&6Du er blevet permanent bannet fra EverPvP grundet &4[reason]'
+    notify: '&6[ip] ([players]) er blevet permanent bannet fra EverPvP af [actor] grundet &4[reason]'
     error:
-      exists: '&c[ip] is already banned'
+      exists: '&c[ip] er allerede bannet'
 
   baniprange:
     error:
-      invalid: '&cInvalid range, please use cidr notation 192.168.0.1/16 or wildcard 192.168.*.*'
-      minMax: '&cRange must be lowest to highest'
-      exists: '&cA ban containing those ranges already exists'
+      invalid: '&cUgyldigt interval, brug venligst cidr notation 192.168.0.1/16 eller wildcard 192.168.*.*'
+      minMax: '&cIntervallet skal være lavest til højeste'
+      exists: '&cEt ban indeholdende dette interval findes allerede'
     ip:
-      disallowed: '&6You have been banned from this server for &4[reason]'
-      kick: '&6You have been banned permanently for &4[reason]'
-    notify: '&6[from] - [to] have been banned by [actor]'
+      disallowed: '&6Du er blevet bannet fra EverPvP grundet &4[reason]'
+      kick: '&6Du er blevet permanent bannet fra EverPvP grundet &4[reason]'
+    notify: '&6[from] - [to] er blevet bannet af [actor]'
 
   tempbaniprange:
-    notify: '&6[from] - [to] has been temporarily banned for [expires] by [actor]'
+    notify: '&6[from] - [to] er blevet midliertidigt bannet fra EverPvP i [expires] af [actor]'
     ip:
       disallowed: '&6You have been banned from this server for &4[reason] \n&6It expires in [expires]'
       kick: '&6You have been temporarily banned for [expires] by [actor] for &4[reason]'
@@ -266,22 +266,22 @@ messages:
     notify: '&6[BanManager] &aEn opdatering er tilgængelig'
 
   notes:
-    header: '&6[player] has the following notes:'
+    header: '&6[player] har følgende noter:'
     note: '&6[[player]] &e[message] - &e[created]'
     playerNote: '&a[[player]] &6[[actor]] &e[message] - &e[created]'
     dateTimeFormat: 'dd-MM-yyyy'
-    notify: '[player] has a new note attached by [actor]: [message]'
+    notify: '[player] har en ny note, tilføjet af [actor]: [message]'
     error:
-      noNotes: '&c[player] has no notes'
-      noOnlineNotes: '&cNo online players have notes'
+      noNotes: '&c[player] har ingen noter'
+      noOnlineNotes: '&cIngen online spillere har noter'
 
   report:
-    notify: '&6[player] has been reported by [actor] for &4[reason]'
+    notify: '&6[player] er blevet raporteret af [actor] grundet &4[reason]'
     error:
-      cooldown: '&cThis player was reported too recently, try again later'
+      cooldown: '&cDenne spiller blev rapporteret for nyligt. Prøv igen senere'
 
   adnoteall:
-    notify: '&c[player] will have a new attached by [actor]: [message]'
+    notify: '&c[player] Vil få en ny note tilføjet af [actor]: [message]'
 
   banlist:
     header: '&6Der er [bans] [type] bans:'
